@@ -16,7 +16,7 @@ def main():
         logger.info("========== PIPELINE STARTED ==========")
 
         logger.info("Loading dataset")
-        df = load_data(r"C:\Users\Sanskar\Desktop\CDAC\MachineLearning\HotelBooking_labtest\Data\Hotel Reservations.csv")
+        df = load_data("../Data/Hotel Reservations.csv")
 
         logger.info("Running EDA")
         run_eda(df)
